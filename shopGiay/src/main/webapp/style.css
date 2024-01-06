@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+* {
+	box-sizing: inherit;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: #ececec;
+}
+
+.box-area {
+	width: 1000px;
+}
+
+.right-box {
+	padding: 20px 30px 20px 40px;
+}
+
+::placeholder {
+	font-size: 16px;
+}
+
+.rounded-4 {
+	border-radius: 20px;
+}
+
+.rounded-5 {
+	border-radius: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+	.box-area {
+		margin: 0 10px;
+	}
+	.left-box {
+		display: none;
+	}
+	.right-box {
+		padding: 20px;
+	}
+}
+
+/* home */
+a {
+	font-size: 14px;
+	font-weight: 700
+}
+
+.superNav {
+	font-size: 13px;
+}
+
+.form-control {
+	outline: none !important;
+	box-shadow: none !important;
+}
+
+@media screen and (max-width:540px) {
+	.centerOnMobile {
+		text-align: center
+	}
+}
+
